@@ -7,5 +7,7 @@ A sequence of data elements stored in contiguous memory locations.
 | Array | O(1) | O(n) | - | - |
 | Array (dynamic) | O(1) | O(n) | O(n) | O(n) |
 
-- Array: Fixed size. Cannot be resized after initialization.
-- Array (dynamic): Usually doubles its capacity (reallocation) when it reaches its limit.
+> [!NOTE]
+>
+> - Array: Fixed size. Cannot be resized after initialization.
+> - Array (dynamic): Usually doubles its capacity (reallocation) when it reaches its limit.
